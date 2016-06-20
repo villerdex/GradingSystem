@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit"/>
+
+    <persistence-unit name="GradingSystem">
+        <jta-data-source>jdbc/gradingpool</jta-data-source>
+        <class>com.GradingSystem.model.Teacher</class>
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <properties>
+            <property name="eclipselink.jdbc.url" value=""/>
+            <property name="eclipselink.jdbc.driver" value=""/>
+            <property name="eclipselink.jdbc.user" value=""/>
+            <property name="eclipselink.jdbc.password" value=""/>
+            <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+        </properties>
+    </persistence-unit>
+</persistence>

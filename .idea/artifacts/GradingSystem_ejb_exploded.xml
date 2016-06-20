@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="GradingSystem:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/GradingSystem_ejb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GradingSystem/ejb/EJB" />
+      <element id="module-output" name="GradingSystem" />
+    </root>
+  </artifact>
+</component>

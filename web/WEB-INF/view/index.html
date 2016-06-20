@@ -1,0 +1,114 @@
+<html>
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../../resources/JS/jquery-2.2.2.js"> </script>
+        <link href="../../resources/plugins/bootstrap-3.3.6/dist/css/bootstrap.css" rel="stylesheet">
+        <script src="../../resources/plugins/bootstrap-3.3.6/dist/js/bootstrap.js"></script>
+        
+        <link href="../../resources/CSS/indexStyle.css" rel="stylesheet">
+        <script src="../../resources/JS/index.js"> </script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <title>Login</title>
+  </head>
+  
+  
+  
+  <body>
+  
+  <div class="header">
+       <div class="logo-container">
+           <p class="logo-text"> Recordie</p>
+       </div>
+       
+        <button type="button" id="login" class="button-simple">Login</button>
+        <button type="button" id="sign-up" class="button-simple" >Sign Up</button>
+  </div>
+  
+  <div class="main-div">
+     <div class="welcome-container">
+            <p class="welcome-big"> Welcome to Recordie</p>
+            <p class="welcome-small"> Recordie is a simple online grading management record website for every teachers in the world. </p>
+            <span class="small-border"></span>
+            
+             <div class="list-container features-container">
+                    <p class="features-text list-text"> Record grades through online, <br>Track your records,<br> Identify failing students. </p>
+                    <span class="bar"></span>
+
+             </div>
+
+             <div class="features-container time-container">
+                    <p class="features-text list-text"> Record grades through online, <br>Track your records,<br> Identify failing students. </p>
+                    <span class="bar"></span>
+
+             </div>
+
+             <div class="features-container user-friendly-container">
+                    <p class="features-text list-text"> Record grades through online, <br>Track your records,<br> Identify failing students. </p>
+                    <span class="bar"></span>
+             </div>
+     
+     </div>
+     
+     <div id="modal-signup">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="white-text"> Sign Up for Free</p>
+          </div>
+           <div class="modal-form">
+             <form method="post" action="" >
+                 <div class="group">      
+                   <input type="text" placeholder="Full Name" name="name">
+                    <span class="bar"></span>
+                </div>
+                <div class="group">      
+                    <input type="text" placeholder="Email" name="email" >
+                    <span class="bar"></span>
+                </div>
+                <div class="group">      
+                   <input type="password" placeholder="Password" name="password" >
+                    <span class="bar"></span>
+                </div>
+                <div class="group">      
+                    <input type="password" placeholder="Confirm  Password" name="confirmpassword">
+                    <span class="bar"></span>
+                </div>
+                <input type="submit" value="Sign Up" class="btn btn-primary" id="signup-Btn" >
+             </form>
+           </div>  
+           <div class="modal-footer"></div>
+        </div>
+     </div>
+  </div>
+  
+  <div id="modal-login">
+      <div class="modal-Login">
+         <div class="login-header">
+             <p class="white-text">Login</p>
+         </div>
+         <div class="modal-form">
+                  <form method="post" action="">
+                      <div class="group">
+                          <input type="text" name="username" placeholder="Username">
+                          <span class="bar"></span> 
+                      </div>
+                      <div class="group">
+                          <input type="password" name="Password" placeholder="Password">
+                          <span class="bar"></span>
+                      </div>   
+                      <input type="submit" name="login-login" value="Login" class="btn btn-primary">
+                  </form>
+         </div>
+        
+      </div>
+  </div>
+  
+    <div class="footer">
+        <div class="social-sites"> 
+           <p class="white-text-sm"> About the developer</p>
+            <div id="fb-icon"></div>
+            <div id="twitter-icon"></div>
+        </div>
+    </div>
+  </body>
+  
+</html>

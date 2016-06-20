@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Recordie">
+    <output-path>$PROJECT_DIR$/out/artifacts/Recordie</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GradingSystem/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="Recordie2" />
+      </element>
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="GradingSystem:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
